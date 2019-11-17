@@ -50,7 +50,7 @@ class Song
     artist = file_name[0]
     track = file_info.split(".")
     track_name[1]
-    song.name
+    song.artist_name = song.name
     return song
   end
 
